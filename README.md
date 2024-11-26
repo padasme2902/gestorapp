@@ -1,0 +1,2 @@
+# gestorapp
+data del json 
