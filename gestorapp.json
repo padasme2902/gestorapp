@@ -4,23 +4,33 @@
       "id": "1",
       "nombre": "Polet Adasme",
       "email": "po.adasme@duocuc.cl",
-      "password": "Polet123"
+      "password": "Polet123",
+      "resetPasswordToken": "",
+      "resetPasswordExpires": ""
     },
     {
       "id": "2",
       "nombre": "Juan Pérez",
       "email": "juan.perez@duocuc.cl",
-      "password": "Juan123"
+      "password": "Juan123",
+      "resetPasswordToken": "",
+      "resetPasswordExpires": ""
     },
     {
       "id": "1cec",
       "nombre": "Madeleine Peñailillo",
-      "fechaNacimiento": "1996-09-12",
       "email": "made@duocuc.cl",
-      "celular": "954001336",
-      "preguntaClave": "aaaaaa",
       "password": "Bonet123456",
-      "foto": "assets/icon/perfil.png"
+      "resetPasswordToken": "",
+      "resetPasswordExpires": ""
+    },
+    {
+      "id": "e6c5",
+      "nombre": "adasme",
+      "email": "adasme@dasme.cl",
+      "password": "123456p",
+      "resetPasswordToken": "",
+      "resetPasswordExpires": ""
     }
   ],
   "usuarios": [
@@ -29,178 +39,18 @@
       "username": "usuario1",
       "email": "po.adasme@duocuc.cl",
       "password": "Polet123",
-      "isactive": true
+      "isactive": true,
+      "resetPasswordToken": "",
+      "resetPasswordExpires": ""
     },
     {
       "id": "2",
       "username": "usuario2",
       "email": "bonet@gmail.com",
       "password": "Bonet123",
-      "isactive": true
-    }
-  ],
-  "eventos": [
-    {
-      "nombre": "Inteligencia artificial",
-      "fecha": "2024-12-03",
-      "lugar": "Auditorio Duoc UC Sede Maipú",
-      "descripcion": "Una conferencia sobre las últimas tendencias en tecnología.",
-      "asistentes": "6",
-      "id": "1",
-      "participantes": [
-        {
-          "nombre": "Carlos",
-          "apellido": "González"
-        },
-        {
-          "nombre": "Ana",
-          "apellido": "Pérez"
-        },
-        {
-          "nombre": "Luis",
-          "apellido": "Rodríguez"
-        },
-        {
-          "nombre": "María",
-          "apellido": "López"
-        },
-        {
-          "nombre": "Javier",
-          "apellido": "Martínez"
-        },
-        {
-          "nombre": "Lucía",
-          "apellido": "Hernández"
-        }
-      ]
-    },
-    {
-      "nombre": "Programación",
-      "fecha": "2024-12-15",
-      "lugar": "Auditorio Duoc UC Sede Maipú",
-      "descripcion": "Una conferencia sobre las últimas tendencias en programación.",
-      "asistentes": "10",
-      "id": "2",
-      "participantes": [
-        {
-          "nombre": "Fernando",
-          "apellido": "Ruiz"
-        },
-        {
-          "nombre": "Elena",
-          "apellido": "Vargas"
-        },
-        {
-          "nombre": "Andrés",
-          "apellido": "Sánchez"
-        },
-        {
-          "nombre": "Carmen",
-          "apellido": "Jiménez"
-        },
-        {
-          "nombre": "José",
-          "apellido": "Moreno"
-        },
-        {
-          "nombre": "Marta",
-          "apellido": "Ramírez"
-        },
-        {
-          "nombre": "Daniel",
-          "apellido": "Flores"
-        },
-        {
-          "nombre": "Clara",
-          "apellido": "Gutiérrez"
-        },
-        {
-          "nombre": "Sofía",
-          "apellido": "Castro"
-        },
-        {
-          "nombre": "Hugo",
-          "apellido": "Ortega"
-        }
-      ]
-    },
-    {
-      "nombre": "Taller de Desarrollo Personal",
-      "fecha": "2024-12-15",
-      "lugar": "Auditorio Duoc UC Sede Maipú",
-      "descripcion": "Un taller interactivo para el crecimiento personal y profesional.",
-      "asistentes": "15",
-      "id": "3",
-      "participantes": [
-        {
-          "nombre": "Valeria",
-          "apellido": "Paredes"
-        },
-        {
-          "nombre": "Juan",
-          "apellido": "Navarro"
-        },
-        {
-          "nombre": "Rocío",
-          "apellido": "Reyes"
-        },
-        {
-          "nombre": "Diego",
-          "apellido": "Figueroa"
-        },
-        {
-          "nombre": "Natalia",
-          "apellido": "Rojas"
-        },
-        {
-          "nombre": "Manuel",
-          "apellido": "Vera"
-        },
-        {
-          "nombre": "Adriana",
-          "apellido": "Campos"
-        },
-        {
-          "nombre": "Miguel",
-          "apellido": "Silva"
-        },
-        {
-          "nombre": "Camila",
-          "apellido": "Méndez"
-        },
-        {
-          "nombre": "Felipe",
-          "apellido": "Soto"
-        },
-        {
-          "nombre": "Paola",
-          "apellido": "Carvajal"
-        },
-        {
-          "nombre": "Ricardo",
-          "apellido": "Peña"
-        },
-        {
-          "nombre": "Andrea",
-          "apellido": "Cabrera"
-        },
-        {
-          "nombre": "Esteban",
-          "apellido": "Fuentes"
-        },
-        {
-          "nombre": "Diana",
-          "apellido": "Salazar"
-        }
-      ]
-    },
-    {
-      "id": "68ad",
-      "nombre": "",
-      "fecha": "",
-      "lugar": "",
-      "descripcion": "",
-      "asistentes": 0
+      "isactive": true,
+      "resetPasswordToken": "",
+      "resetPasswordExpires": ""
     }
   ]
 }
