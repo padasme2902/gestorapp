@@ -3,8 +3,9 @@
     {
       "id": "1",
       "nombre": "Polet Adasme",
-      "email": "po.adasme@duocuc.cl",
+      "email": "poletadasme",
       "password": "Polet123",
+      "preguntaClave": "Made",
       "resetPasswordToken": "",
       "resetPasswordExpires": ""
     },
