@@ -3,55 +3,68 @@
     {
       "id": "1",
       "nombre": "Polet Adasme",
-      "email": "poletadasmee@gmail.com",
-      "password": "Polet123",
-      "preguntaClave": "Made",
-      "resetPasswordToken": "",
-      "resetPasswordExpires": ""
+      "email": "po.adasme@duocuc.cl",
+      "password": "Polet123"
     },
     {
       "id": "2",
       "nombre": "Juan Pérez",
       "email": "juan.perez@duocuc.cl",
-      "password": "Juan123",
-      "resetPasswordToken": "",
-      "resetPasswordExpires": ""
+      "password": "Juan123"
     },
     {
-      "id": "1cec",
-      "nombre": "Madeleine Peñailillo",
-      "email": "made@duocuc.cl",
-      "password": "Bonet123456",
-      "resetPasswordToken": "",
-      "resetPasswordExpires": ""
+      "id": "81ba"
     },
     {
-      "id": "e6c5",
-      "nombre": "adasme",
-      "email": "adasme@dasme.cl",
-      "password": "123456p",
-      "resetPasswordToken": "",
-      "resetPasswordExpires": ""
+      "id": "d6e4",
+      "nombre": "aaaaaa",
+      "fechaNacimiento": "11111-11-11",
+      "email": "111111@gmaail.com",
+      "celular": "111111",
+      "preguntaClave": "11111",
+      "password": "111111"
     }
   ],
   "usuarios": [
     {
-      "id": "1",
+      "id": 1,
       "username": "usuario1",
       "email": "po.adasme@duocuc.cl",
       "password": "Polet123",
-      "isactive": true,
-      "resetPasswordToken": "",
-      "resetPasswordExpires": ""
+      "isactive":true 
     },
     {
-      "id": "2",
+      "id": 2,
       "username": "usuario2",
       "email": "bonet@gmail.com",
       "password": "Bonet123",
-      "isactive": true,
-      "resetPasswordToken": "",
-      "resetPasswordExpires": ""
+      "isactive":true 
+    }
+  ],
+  "eventos": [
+    {
+      "nombre": "Inteligencia artificial",
+      "fecha": "2024-12-03",
+      "lugar": "Auditorio Duoc UC Sede Maipú",
+      "descripcion": "Una conferencia sobre las últimas tendencias en tecnología.",
+      "asistentes": 100,
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "nombre": "Programación",
+      "fecha": "2024-12-15",
+      "lugar": "Auditorio Duoc UC Sede Maipú",
+      "descripcion": "Una conferencia sobre las últimas tendencias en programación.",
+      "asistentes": 75
+    },
+    {
+      "nombre": "Taller de Desarrollo Personal",
+      "fecha": "2024-12-15",
+      "lugar": "Auditorio Duoc UC Sede Maipú",
+      "descripcion": "Un taller interactivo para el crecimiento personal y profesional.",
+      "asistentes": "55",
+      "id": "3"
     }
   ]
 }
